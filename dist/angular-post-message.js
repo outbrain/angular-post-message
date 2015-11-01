@@ -32,7 +32,7 @@
             response = angular.fromJson(event.data);
           } catch (_error) {
             error = _error;
-            $log.error('ahem', error);
+            //$log.error('ahem', error);
             response = event.data;
           }
           if(typeof response === 'object') {
